@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract menty {
+contract menty  {
     // The contract name is "menty"
 
     // The function name is "add", and it takes two input arguments: x and y of type uint (unsigned integer)
