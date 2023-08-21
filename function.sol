@@ -9,7 +9,7 @@ contract menty {
     // The "pure" keyword indicates that this function does not modify the contract's state and only returns a value
     // The "external" keyword indicates that this function can be called externally, not from within the contract
     function add(uint x, uint y) external pure returns (uint) {
-        // The function returns the sum of x and y
+        // The function returns  the sum of x and y
         return x + y;
     }
 
