@@ -19,7 +19,7 @@ contract StudentDetails{
  }
  
  modifier onlyOwner(){
-     require(msg.sender == principal, "not principal");
+     require(msg.sender == principal, "not a principal");
      _;
  }
  function admitStudent(string memory _name, uint _age, string memory _gender)external onlyOwner{
